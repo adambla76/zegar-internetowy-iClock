@@ -5,6 +5,7 @@
   Zegar został zbudowany w opartciu o procesor ESP8266 Wemos D1 Mini. Jego główną funkcją jest stałe wyświetlanie aktualnej godziny synchronizowanej z czasem atomowym pobieranym z serwerów NTP. Przy starcie urządzenie loguje się do domowej sieci WIFI, a następnie pobiera dane czasowe i przechodzi do prezentacji godziny. Co 30 sek zegar pokazuje dodatkowo aktualną datę, temperaturę , wilgotność, ciśnienie oraz prędkość wiatru.   Wszystkie parametry pogodowe pobierane są z serwera IMGW zgodnie z bieżącą lokalizacją gdzie znajduje się zegar. 
   Jako wyświetlacz został użyty panel led dotmatrix 8x8 o długości 5 modułów. Za wyświetlanie liter i cyfr na panelu odpowiedzialna jest biblioteka https://github.com/MajicDesigns/MD_Parola Ze względu na to że biblioteka ta jest bardzo uniwersalna wymaga odpowiedniej konfiguracji przed kompilacją tak aby zgadzał się rodzaj modułów oraz sposób adresacji pixeli (zigzag/progressive/top-left/bottom-right). 
   Za pobieranie aktulnego czasu z serwera NTP odpowiedzialna jest biblioteka https://github.com/PaulStoffregen/Time . Ma ona wewnętrznie zaimpementowaną automatyczną zmianę czasu DST (letni/zimowy) . Projekt pracuje już ok 5 lat bez żadnych awarii ani zawieszeń. Posiada mechanizm automatycznego update'u firmware'u jeżeli taki pojawi się na serwerze z którego się aktualizuje. 
+  Jako obudowa urządzenia użyto taniej uniwersalnej karafki dostępnej w sklepach IKEA ;-) 
 
 # Konstrukcja zegara
 
