@@ -1,5 +1,4 @@
 # zegar internetowy iClock
-Projekt zegara internetowego w oparciu o platformę ESP8266 Wemos D1 mini 
 ![IMG_2087](https://user-images.githubusercontent.com/17962241/168326243-8f71a963-484c-4b51-847f-2ad88b9cb562.JPG)
 
 # Opis funkcjonalny
